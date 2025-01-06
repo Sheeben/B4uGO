@@ -1,4 +1,8 @@
-# React + Vite
+# B4uGO
+
+This project leverages React and Vite for building a responsive and fast front-end application.
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
