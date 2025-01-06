@@ -1,0 +1,434 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background: rgb(227, 221, 210);
+  background: linear-gradient(90deg, rgb(227, 221, 210) 0%, rgba(227, 221, 210) 63%);
+  width: 100%;
+ 
+}
+
+.navbar{
+    background: rgb(227, 221, 210);
+    background: linear-gradient(90deg, rgb(227, 221, 210) 0%, rgba(227, 221, 210) 63%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 18vh;
+    position: sticky;
+	  top: 0;
+    
+}
+
+.navbar .name{
+    margin-left: 27px;
+}
+
+.div1 {
+    width: 100%;
+    
+  }
+
+  nav{
+    width: 100%;
+    background-color: #01796f;
+  }
+ 
+
+ .photo{
+    background-image: url('/public/images/chat.webp');
+    width: 90%;
+    margin-left: 5%;
+    height: 80vh;
+    background-size: cover;
+    border-radius: 6% 6% 0% 0%;
+    background-attachment: fixed;
+  }
+
+ .container-fluid{
+  display: flex;
+  justify-content:space-around;
+  
+  }
+  .container-fluid ul{
+    background-color: #01796f;
+    color: white;
+  }
+ 
+  .container-fluid ul li a{
+    background-color: #01796f;
+    color: white;
+    
+  }
+ 
+  .container-fluid ul li a:hover{
+    background-color: white;
+    color: black;
+    
+    
+  }
+
+  .btn-login .btn{
+      background-color: #01796f;
+      color: white;
+      margin-right: 25px;
+  }
+  .btn-login .btn:hover{
+    background-color: white;
+    color: black;
+    margin-right: 25px;
+}
+
+ .input-group input{
+  background-color: #01796f;
+ 
+  
+  
+ }
+ .input-group {
+  position: absolute;
+  top: 140px;
+  height: 20%;
+  left: 350px;
+ }
+ #button-addon2{
+  background-color: #01796f;
+  font-size: 35px;
+  
+ }
+
+ .input-group input::placeholder{
+  color: white;
+ 
+ }
+
+.container-home{
+  color: white;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+.container-home h1{
+  font-size: 70px;
+}
+.container-home p{
+  font-size: 25px;
+  margin-left: -50%;
+}
+
+#services{
+ 
+  width: 100%;
+ 
+}
+
+
+#services h2{
+  margin-left: 45%;
+  text-align: center;
+  margin-top: 30%;
+  border-left: 5px solid #01796f;
+  border-bottom: 5px solid #01796f;
+  width: 10%;
+ 
+
+}
+
+
+
+
+.container-service{
+  display: grid;
+  grid-template-columns: 6fr 6fr; 
+  height: 90vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  
+}
+
+.container-service .card{
+   height: 70%;
+   margin-right: 25px;
+  
+}
+
+
+
+.container-service2{
+  display: grid;
+  grid-template-columns: 6fr 6fr; 
+  height: 50vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+ 
+}
+.container-service2 .card{
+  margin-top: -40%;
+   height: 120%;
+   margin-right: 25px;
+   margin-bottom: 20px;
+}
+.card-body{
+  text-align: center;
+  height: 70%;
+}
+.card{
+  box-shadow: 0px 1px 2px #01796f, 
+  0px 2px 4px #01796f, 
+  0px 4px 8px rgba(0,255,255,0.5), 
+  0px 8px 16px rgba(0,255,255,0.5);
+}
+.card:hover{
+  box-shadow: 0px 1px 2px #01796f, 
+  0px 2px 4px #01796f, 
+  0px 4px 8px rgba(0,255,255,0.5), 
+  0px 8px 16px rgba(0,255,255,0.5);
+}
+
+.card-header p{
+ 
+  color: white;
+  padding: 5px;
+  text-align: center;
+  background: #01796f;
+  box-shadow: 0px 1px 2px rgba(9, 75, 75, 0.5), 
+              0px 2px 4px rgba(9, 131, 131, 0.5), 
+              0px 4px 8px rgba(6, 135, 135, 0.5), 
+              0px 8px 16px rgba(21, 121, 121, 0.5);
+}
+.card-footer{
+  background-color: #01796f;
+}
+.card-footer span{
+  font-size: 15px;
+}
+
+
+
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socials li {
+  display: inline-block;
+}
+
+.socials li a {
+  color: #ffffff;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.socials li a:hover {
+  color: #01796f;
+  text-shadow: 0 0 5px #01796f;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: gray;
+}
+
+.footer-bottom p a {
+  color: rgb(141, 66, 222);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#imagess{
+  background-image: url("../public/images/nature-landscape.avif");
+  width: 100%;
+  height: 80vh;
+  margin-top: 60px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  box-shadow: 0px 1px 2px rgba(9, 75, 75, 0.5), 
+              0px 2px 4px rgba(9, 131, 131, 0.5), 
+              0px 4px 8px rgba(6, 135, 135, 0.5), 
+              0px 8px 16px rgba(21, 121, 121, 0.5);
+           
+}
+#imagess .div1-border{
+  
+  
+  border-top-right-radius: 200%;
+  border-bottom-right-radius: 200%;
+  background: rgb(227, 221, 210);
+  width: 50%;
+  
+}
+#imagess .div1-border div{
+  height: 80%;
+  border-top-right-radius: 200%;
+  border-bottom-right-radius: 200%;
+  background:#01796f;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  
+}
+#imagess .div2-border{
+  margin-left: 50%;
+  border-top-left-radius: 200%;
+  border-bottom-left-radius: 200%;
+  background: rgb(227, 221, 210);
+  width: 50%;
+}
+#imagess .div2-border div{
+  height: 80%;
+  border-top-left-radius: 200%;
+  border-bottom-left-radius: 200%;
+  background:#01796f;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+#spots{
+ 
+  width: 100%;
+  height: 650vh;
+  text-align: center;
+  margin-top: 40%;
+}
+#spots h2{
+  margin-bottom: 40px;
+}
+
+/* Specific styles for the spots section cards */
+.spots-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.spots-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spots-card-header h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.spots-card-body {
+  text-align: center;
+}
+
+.spots-card-body img {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.spots-card-body p {
+  font-size: 16px;
+  color: #555;
+}
+.divtraddy{
+ display: grid;
+grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 80px;
+}
+#contact{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  height: 90vh;
+  margin-bottom: 30%;
+  color: black;
+  background-color: #01796f;
+
+}
+#contact:hover{
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  height: 90vh;
+  margin-bottom: 30%;
+  color: white;
+  background-color: black;
+ 
+}
+.contact-content h2,p{
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-image2{
+  background-image: url("../public/images/view.avif");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+}
+form .form-control{
+  margin-left: 20%;
+  width: 50%;
+}
+form .form-label{
+  margin-left: 20%;
+  width: 50%;
+}
+form .btn{
+  margin-left: 20%;
+  width: 50%;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+form .btn:hover{
+  margin-left: 20%;
+  width: 50%;
+  margin-top: 20px;
+  background-color:#01796f;
+  color: white;
+}
