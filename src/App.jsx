@@ -46,7 +46,7 @@ function App() {
   const [servicesData, setServicesData] = useState([])
 
   useEffect(() => {
-    fetch("https://b4u-go.vercel.app/services")
+    fetch("http://localhost:8080/services")
       .then((response) => response.json())
       .then((data) => setServicesData(data))
       .catch((error) => console.error("Error fetching services data:", error))
