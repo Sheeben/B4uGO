@@ -669,7 +669,7 @@ form .btn:hover {
   grid-template-columns: 1fr;
   gap: 40px;
   height: 90vh;
-  width: 80%;
+  width: auto;
   margin-left: 10%;
   margin-top: 50px;
 }
@@ -684,7 +684,7 @@ form .btn:hover {
   grid-template-columns: 1fr;
   height: 130vh;
   gap: 40px;
-  width: 80%;
+  width: auto;
   margin-left: 10%;
   margin-top: 105%;
 }
@@ -695,6 +695,7 @@ form .btn:hover {
 .card-body {
   text-align: center;
   height: 70%;
+  
 }
 .card {
   box-shadow: none;
